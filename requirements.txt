@@ -1,0 +1,9 @@
+# Example requirements.txt file for testing
+# Common packages for development
+
+# Core packages
+requests>=2.28.0
+click>=8.0.0
+
+# Development tools
+pytest>=7.0.0

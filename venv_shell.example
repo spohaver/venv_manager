@@ -1,0 +1,10 @@
+#!/bin/bash
+# Automatically generated virtual environment activation script
+# This script opens a NEW shell with the virtual environment activated
+echo "Starting new shell with virtual environment 'test-shell' activated..."
+echo "Type 'exit' to return to your original shell."
+echo "Virtual environment path: /home/sohaver/virtual_environments/test-shell"
+echo ""
+cd "/home/sohaver/workplace/misc/python_scripts/venv_template"
+source /home/sohaver/virtual_environments/test-shell/bin/activate
+exec "$SHELL"
