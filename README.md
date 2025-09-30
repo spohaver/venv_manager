@@ -271,3 +271,20 @@ If you're currently using the bash version and want to switch to the Python vers
 | **Maintainability** | Moderate | High (OOP structure) |
 | **Dependencies** | bash, python3 | python3 only |
 | **Backward compatibility** | N/A | ✅ Maintains compatibility with bash version |
+
+## 📚 Documentation
+
+- **[CHANGELOG.md](CHANGELOG.md)** - Complete project history and version notes
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Guide for contributors
+- **[LICENSE](LICENSE)** - MIT License details
+
+## 🏗️ Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and guidelines.
+
+Quick development setup:
+```bash
+make install  # Install development dependencies
+make test     # Run tests
+make demo     # Try out the tool
+```
