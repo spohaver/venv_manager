@@ -19,6 +19,12 @@ A comprehensive Python virtual environment manager that simplifies creating, man
 
 ### Installation
 
+#### Quick Install (Recommended)
+```bash
+curl -sSL https://raw.githubusercontent.com/spohaver/venv-manager/main/install.sh | bash
+```
+
+#### Manual Installation
 1. Clone the repository:
 ```bash
 git clone https://github.com/spohaver/venv-manager.git
@@ -28,6 +34,12 @@ cd venv-manager
 2. Make the script executable:
 ```bash
 chmod +x venv-manager
+```
+
+3. (Optional) Add to PATH for global access:
+```bash
+echo 'export PATH="$HOME/venv-manager:$PATH"' >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ### Basic Usage
